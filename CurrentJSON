@@ -1,0 +1,47 @@
+[
+{
+	"name": "Speed Hack",
+	"fileName": "speedhack",
+	"modded": [
+		"01 48 8B 88 B8 00 00 00 C7 41 18 00 00 20 41 48 83 C4 28 C3 CC CC CC CC CC CC 48 83 EC 28 80 3D",
+		"01 48 8B 81 B8 00 00 00 C7 40 08 0A 00 00 00 48 8B 05",
+		"01 48 8B 81 B8 00 00 00 C7 40 08 0A 00 00 00 48 8B 05",
+		"01 48 8B 88 B8 00 00 00 C7 41 18 00 00 20 41 48 83 C4 28 C3 CC CC CC CC CC CC CC CC CC CC 48 83 EC 28 80 3D"
+	],
+	"normal": [
+		"01 48 8B 88 B8 00 00 00 C7 41 18 00 00 40 40 48 83 C4 28 C3 CC CC CC CC CC CC 48 83 EC 28 80 3D",
+		"01 48 8B 81 B8 00 00 00 C7 40 08 03 00 00 00 48 8B 05",
+		"01 48 8B 81 B8 00 00 00 C7 40 08 03 00 00 00 48 8B 05",
+		"01 48 8B 88 B8 00 00 00 C7 41 18 00 00 40 40 48 83 C4 28 C3 CC CC CC CC CC CC CC CC CC CC 48 83 EC 28 80 3D"
+	]
+}, {
+	"name": "Unlimited Tier 5 Towers",
+	"fileName": "unlimited t5",
+	"modded": [
+		"CC CC CC CC CC 48 83 EC 08 B8 00 00 00 00 48 83 C4 08 C3 3D",
+		"48 83 EC 28 48 8D 0D CD DA D6 01 E8 90 7C 17 00 48 8D 0D 69 2A 20 00 48 83 C4 28 E9 58 38 1D 00"
+	],
+	"normal": [
+		"CC CC CC CC CC 48 89 6C 24 20 56 57 41 56 48 83 EC 20 80 3D",
+		"48 83 EC 28 48 8D 0D CD DA D6 01 E8 90 7C 17 00 48 8D 0D 69 2A 20 00 48 83 C4 28 E9 58 38 1D 00"
+	]
+}, {
+	"name": "Place Anywhere",
+	"fileName": "place towers anywhere",
+	"modded": [
+		"48 83 EC 08 B8 01 00 00 00 48 83 C4 08 C3 08 55 53 56 57 41 54 41 55 41 56 41 57 48 81 EC 78 01"
+	],
+	"normal": [
+		"4C 89 4C 24 20 4C 89 44 24 18 48 89 4C 24 08 55 53 56 57 41 54 41 55 41 56 41 57 48 81 EC 78 01"
+	]
+}, {
+	"name": "No Ability Cooldown",
+	"fileName": "no ability cooldown",
+	"modded": [
+		"C7 83 90 00 00 00 00 00 00 00"
+	],
+	"normal": [
+		"F3 0F 11 8B 90 00 00 00 76 0A"
+	]
+}
+]
